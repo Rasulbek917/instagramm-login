@@ -1,0 +1,458 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header {
+    background-color: rgba(38, 51, 93, 1);
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+  ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-right: 250px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+  }
+  ul li a:hover {
+    color:  rgba(27, 199, 104, 1);
+  }
+
+  .btns {
+    display: flex;
+    gap: 8px;
+  }
+  .btn-one {
+    padding: 8px 30px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    border: none;
+    transition: 0.2s;
+  }
+  .btn-one:hover {
+    color:  rgba(27, 199, 104, 1);
+  }
+  .btn-two {
+    padding: 8px 30px;
+    font-weight: 600;
+    background-color: rgba(27, 199, 104, 1);
+    border-radius: 4px;
+    border: none;
+    color: white;
+  }
+
+  .btn-two:hover {
+    background-color: rgb(91, 209, 99);
+  }
+
+
+  .header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .header-main-text h4 {
+    font-size: 15px;
+    color: rgb(91, 209, 99);
+    padding-bottom: 20px;
+  }
+  .header-main-text h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+  }
+  .header-main-text p {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+    padding-bottom: 30px;
+  }
+
+  .header-main-btns {
+    display: flex;
+    gap: 15px;
+  }
+  .header-main-btn-one {
+      padding: 10px 40px;
+      background-color: rgb(91, 209, 99);
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      color: white;
+  }
+  .header-main-btn-two {
+      padding: 10px 40px;
+      border: 1px solid rgb(91, 209, 99);
+      color:  rgb(91, 209, 99);
+      background: none;
+      border-radius: 4px;
+      font-weight: 600;
+  }
+
+  .appoinment-top-text {
+    margin: 100px 0;
+  }
+  .appoinment-top-text h4 {
+    color: rgb(91, 209, 99);
+    padding-bottom: 15px;
+  }
+  .appoinment-top-text h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .appoinment-top-text p {
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .appoinment-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .appoinment-card {
+    width: 250px;
+    box-shadow: 3px 11px 16px 0px rgba(34, 60, 80, 0.2);
+    padding: 30px;
+  }
+  .line {
+    width: 60px;
+    height: 3px;
+    background-color: red;
+  }
+  .appoinment-img1 {
+    padding-bottom: 20px;
+  }
+  .appoinment-card h3 {
+    padding-bottom: 20px;
+  }
+  .appoinment-img2 {
+    padding-bottom: 20px;
+  }
+  .appointment-h3-flex {
+    display: flex;
+    margin: 15px 0;
+
+  }
+  .appointment-h3-flex h4 {
+    margin-right: 20px;
+  }
+  .doctors-flex {
+    display: flex;
+  }
+
+  .star-bals {
+    display: flex;
+    gap: 5px;
+    /* padding: 20px 10px; */
+    background-color: blue;
+  }
+  .sit {
+    font-size: 18px ;
+    line-height: 28px;
+    padding-bottom: 15px;
+  }
+  .focus {
+    color: gray;
+    padding-bottom: 15px;
+  }
+  .downloads-flex {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .downloads-flex h4 {
+    color: gray;
+  }
+  .price {
+    color: gray;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .price2 {
+    color: rgb(121, 219, 91);
+  }
+  .doctors-card-button {
+    padding: 10px 30px ;
+    background: none;
+    border: 1px solid rgb(91, 209, 99);
+    border-radius: 40px;
+  }
+
+
+
+
+
+  #thebeast-bg {
+    background-color: rgba(38, 51, 93, 1);
+    width: 100%;
+    height: 800px;
+    color: white;
+    margin-top: 150px;
+  }
+  .thebeast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .thebeast-text img {
+    width: 30%;
+    padding-bottom: 30px
+  }
+  .thebeast-text h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+  .thebeast-text p {
+    color: rgb(192, 192, 192);
+    padding-bottom: 30px;
+  }
+  .thebeast-text button {
+    
+  background: none;
+  border: none;
+  color: rgb(91, 209, 99);
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.4s;
+  }
+  .thebeast-text button:hover {
+    /* text-decoration: underline; */
+    border: 2px solid rgb(91, 209, 99);
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .pricing {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+    align-items: center;
+
+    /* background-color: blue; */
+  }
+  .pricing-1 {
+    width: 350px;
+    height: max-content;
+    box-shadow: 3px 11px 16px 0px rgba(34, 60, 80, 0.2);
+    /* text-align: center; */
+    padding: 30px;
+  }
+  .pricing-1-img {
+    padding-bottom:10px ;
+  }
+
+  .free-text {
+    font-size:30px;
+    padding-bottom: 20px;
+  }
+  .pricing-p1 {
+    color: gray;
+    padding-bottom: 20px;
+  }
+  .pricing-pricing {
+    font-size: 40px;
+    /* padding-bottom: 20px; */
+    color: #1BC768;
+  }
+  .pricing-permoon {
+    color: rgb(39, 150, 202);
+    padding-bottom: 30px;
+  }
+  .pricing-slate {
+    color: gray;
+    padding-bottom: 30px;
+  }
+  .pricing-button {
+    padding: 15px 60px ;
+    background-color: green;
+    margin: auto auto;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    margin-left: 35px;
+  }
+  .unlimited {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .testimonial {
+    width: 300px;
+  }
+
+  .testimonial .testimonial-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 200px;
+    margin: 0 auto 20px;
+  }
+
+  .testimonial p {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .pricing-testimonials-stars img {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    vertical-align: middle;
+  }
+
+  .pricing-reginamiles h4 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #001f3f;
+  }
+
+  .pricing-reginamiles p {
+    margin: 0;
+    font-size: 13px;
+    color: #6c757d;
+  }
+  .newsletter {
+    background-color:#26335D; /* Dark blue */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .newsletter-joinus {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .newsletter-joinus h6 {
+    color: #32CD32; /* Green */
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+  }
+
+  .newsletter-joinus h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-joinus p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .newsletter-form input {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    width: 688px;
+    border: none;
+  }
+
+  .newsletter-form button {
+    background-color:#1BC768; 
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .contact-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  .contact-card h3 {
+    padding-bottom: 20px;
+  }
+  .contact-card h4 {
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .call {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+  }
+  .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #888888;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.icon a {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+}
+
